@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Widya Tarigan | CV </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        .background-image {
+            background-image: url('assets/img/bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-center-both {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td:nth-child(2) {
+            width: 60%;
+        }
+
+        td:last-child {
+            text-align: center;
+        }
+
+        /* Penyesuaian untuk layar kecil */
+        @media (max-width: 768px) {
+            .col-3, .position-fixed {
+                display: none;
+            }
+
+            .col {
+                width: 100%;
+            }
+
+            .vh-100, .vh-120 {
+                height: auto !important;
+            }
+
+            /* Menyembunyikan sidebar saat layar kecil */
+            .navbar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Tambahkan ini di dalam tag <nav> -->
+            <button class="navbar-toggler toggle-sidebar z-2" type="button" style="background-color: #040B14;">
+                <span class="navbar-toggler-icon text-light"><i class="bi bi-border-width"></i></span>
+            </button>
+
+            <div class="col-3 p-4 vh-100"></div>
+            <div class="col-auto p-4 vh-100 position-fixed z-1" style="background-color: #040B14;">
+                <div class="header text-light text-center">
+                    <img src="assets/img/Profile.jpg" class="rounded-circle" alt="Cinque Terre" width="200"
+                        height="190">
+                    <br>
+                    <br>
+                    <h3>Widya Shantika Tarigan</h3>
+                    <hr>
+                    <h3>
+                        <a href="https://www.instagram.com/tarigan_ws?igsh=MXkybzZrYmR5YnBlMw=="
+                            class="text-light me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@initigan?_t=8jzEBrABF5e&_r=1" class="text-light me-2"><i
+                                class="bi bi-tiktok"></i></a>
+                    </h3>
+                    <hr>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a href="#home" class="nav-link text-light"><i
+                                    class="bi bi-house me-2"></i>Home</a></li>
+                        <li class="nav-item"><a href="#profile" class="nav-link text-light"><i
+                                    class="bi bi-person-lines-fill me-2"></i>Profile</a></li>
+                        <li class="nav-item"><a href="#pendidikan" class="nav-link text-light"><i
+                                    class="bi bi-bank2 me-2"></i>Riwayat Pendidikan</a></li>
+                        <li class="nav-item"><a href="#pekerjaan" class="nav-link text-light"><i
+                                    class="bi bi-building me-2"></i>Riwayat Pekerjaan</a></li>
+                        <li class="nav-item"><a href="#skill" class="nav-link text-light"><i
+                                    class="bi bi-bar-chart-steps me-2"></i>Skill</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="home vh-100 background-image">
+                    <div class="text-center-both">
+                        <div>
+                            <h1 data-aos="fade-up">Curriculum Vitae</h1>
+                            <h3 data-aos="fade-down">Widya Shantika Tarigan</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 vh-120 text-center-both">
+                    <div data-aos="flip-left" class="Profile" id="profile">
+                        <h2>Profile</h2>
+                        <hr>
+                        <h4>
+                            Hallo, Nama saya Widya Shantika Tarigan, saya lahir di bandung pada 11 November 2000, saya biasa di panggil tigan, saya adalah seorang Fresh Graduate dari Institute Keguruan dan Ilmu Pendidikan Siliwangi, dengan proram studi saya Bahasa Inggris.
+                        </h4>
+                    </div>
+                    <div data-aos="flip-right" class="Riwayat Pendidikan" id="pendidikan">
+                        <h2>Riwayat Pendidikan</h2>
+                        <hr>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Tempat Pendidikan</th>
+                                    <th>Jenjang Pendidikan</th>
+                                    <th>Tahun</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SD Kartika X-3</td>
+                                    <td>SD</td>
+                                    <td>2007 - 2013</td>
+                                </tr>
+                                <tr>
+                                    <td>MTs Serba Bakti</td>
+                                    <td>MTs</td>
+                                    <td>2013 - 2016</td>
+                                </tr>
+                                <tr>
+                                    <td>SMAN 1 Lembang</td>
+                                    <td>SMA</td>
+                                    <td>2016 - 2019</td>
+                                </tr>
+                                <tr>
+                                    <td>SMAN 1 Lembang</td>
+                                    <td>SMA</td>
+                                    <td>2020 - 2024</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div data-aos="flip-up" class="riwayatPekerjaan" id="pekerjaan">
+                        <h2>Riwayat Pekerjaan</h2>
+                        <hr>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Jenis Pekerjaan</th>
+                                    <th>Tahun</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Event Organizer</td>
+                                    <td>2020 - Sekarang</td>
+                                </tr>
+                                <tr>
+                                    <td>Caster Game</td>
+                                    <td>2020 - Sekarang</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div data-aos="flip-down" class="skil" id="skill">
+                        <h2>Keahlian</h2>
+                        <hr>
+                        <h4>Bahasa Inggris</h4>
+                        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%">Bahasa Inggris 85%</div>
+                        </div>
+                        <div class="progress mt-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%">Microsoft 75%</div>
+                        </div>
+                        <div class="progress mt-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 90%">Public Speaking 90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+    // Tambahkan kode JavaScript berikut
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleButton = document.querySelector('.toggle-sidebar');
+        const sidebar = document.querySelector('.position-fixed');
+
+        toggleButton.addEventListener('click', function () {
+            sidebar.classList.toggle('d-block'); // Tambahkan class d-block jika tidak ada, hapus jika sudah ada
+        });
+    });
+</script>
+
+</body>
+
+</html>
